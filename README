@@ -1,0 +1,6 @@
+Simple webapp to create atom feeds for the "recent news" pages of the
+computer science courses at the Hochschule Karlsruhe.
+
+Installation:
+python2.7 make-bootstrap.py > bootstrap.py
+python2.7 bootstrap.py --no-site-packages --distribute env
