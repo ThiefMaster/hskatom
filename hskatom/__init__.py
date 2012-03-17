@@ -71,7 +71,7 @@ def atom(key):
         subtitle=key, updated=last_update)
     ts = datetime(1970, 1, 1)
     for item in items:
-        item_url = '%s?1#%s' % (url, item['id'])
+        item_url = '%s#%s' % (url, item['id'])
         feed.add(item['title'], item['content'], content_type='html', id=item_url,
             updated=ts, url=item_url)
     return feed.get_response()
