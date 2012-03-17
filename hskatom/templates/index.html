@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>HSKAtom</title>
+    </head>
+
+    <body>
+        <h1>Available Feeds</h1>
+        <ul>
+            {% for key in newskeys|sort %}
+                <li><a href="{{ url_for('atom', key=key) }}">{{ key }}</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

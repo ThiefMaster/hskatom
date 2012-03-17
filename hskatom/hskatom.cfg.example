@@ -1,0 +1,10 @@
+# vim: ft=python tw=0
+DEBUG = False
+CACHE_TYPE = 'filesystem'
+CACHE_DIR = 'cache'
+FEED_TITLE = 'Hochschule Karlsruhe - News'
+NEWS_URLS = {
+    'Bachelor': 'http://www.hs-karlsruhe.de/fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge/informatik/aktuell.html',
+    'Master': 'http://www.hs-karlsruhe.de/fakultaeten/informatik-und-wirtschaftsinformatik/masterstudiengaenge/informatik/aktuell.html'
+}
+NEWS_CACHE_DURATION = 3600

@@ -2,4 +2,5 @@
 *.swp
 *.cfg
 /env/
+/cache/
 /bootstrap.py
